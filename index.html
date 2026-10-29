@@ -1,5 +1,10 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Original certification exam practice questions with explanations. 30 free questions per exam, premium PDFs available.">
 <title>PassPeak Exam Prep</title>
-<meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
@@ -19,6 +24,7 @@
   --bg:#0d1220; --surface:#151c2f; --ink:#e9edf7; --muted:#9aa5bf; --line:#263049;
   --accent:#6f8bff; --accent-ink:#0d1220; --mark:#e8c43a; --good:#3ccf8a; --bad:#ff6b75; --soft:#1c2643; color-scheme:dark}
 *{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}body{margin:0}img{max-width:100%}[hidden]{display:none!important}
 body{background:var(--bg);color:var(--ink);font:16px/1.6 var(--f-body)}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--surface)}
 a{color:inherit}
@@ -135,6 +141,8 @@ footer{border-top:1px solid var(--line);padding-block:40px;margin-top:64px;color
 @media(prefers-reduced-motion:reduce){*{transition:none!important}.sheet{transform:none}}
 </style>
 
+</head>
+<body>
 <header><div class="wrap nav">
   <a class="logo" href="#home"><i></i>PassPeak</a>
   <nav>
@@ -376,3 +384,5 @@ document.addEventListener("click", ev => {
 window.addEventListener("hashchange", () => { if(location.hash.startsWith("#exam-")) cur=0; render(); });
 render();
 </script>
+</body>
+</html>
